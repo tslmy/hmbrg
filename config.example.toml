@@ -1,0 +1,7 @@
+endpoint = "http://homebridge.local:8581"
+username = "your-username"
+password = "your-password"
+otp = ""
+show_all = false
+dump_accessories = false
+timeout_seconds = 20

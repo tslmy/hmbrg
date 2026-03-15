@@ -1,0 +1,6 @@
+{
+  "label": "Home Automation",
+  "icon": "icon.png",
+  "launch": "launch.sh",
+  "description": "Turn lights on/off in your house"
+}
