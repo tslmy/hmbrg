@@ -1,6 +1,7 @@
 # hmbrg
 
 [![prek](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/j178/prek/master/docs/assets/badge-v0.json)](https://github.com/j178/prek)
+[![codecov](https://codecov.io/gh/tslmy/hmbrg/branch/main/graph/badge.svg)](https://codecov.io/gh/tslmy/hmbrg)
 
 A tiny SDL2 GUI client for turning switches on/off via Homebridge, for [Miyoo Mini Flip (MMF)][mmf] running [OnionOS][oos].
 

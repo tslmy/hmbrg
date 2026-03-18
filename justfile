@@ -3,6 +3,9 @@ set shell := ["zsh", "-c"]
 tidy:
   go mod tidy
 
+test:
+  go test ./...
+
 run:
   env -u GOOS -u GOARCH -u GOARM CGO_ENABLED=1 go run ./src
 

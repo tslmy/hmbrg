@@ -10,13 +10,13 @@ import (
 )
 
 type Config struct {
-	Endpoint        string `json:"endpoint"`
-	Username        string `json:"username"`
-	Password        string `json:"password"`
-	OTP             string `json:"otp,omitempty"`
-	ShowAll         bool   `json:"show_all,omitempty"`
-	DumpAccessories bool   `json:"dump_accessories,omitempty"`
-	TimeoutSeconds  int    `json:"timeout_seconds,omitempty"`
+	Endpoint        string `json:"endpoint" toml:"endpoint"`
+	Username        string `json:"username" toml:"username"`
+	Password        string `json:"password" toml:"password"`
+	OTP             string `json:"otp,omitempty" toml:"otp"`
+	ShowAll         bool   `json:"show_all,omitempty" toml:"show_all"`
+	DumpAccessories bool   `json:"dump_accessories,omitempty" toml:"dump_accessories"`
+	TimeoutSeconds  int    `json:"timeout_seconds,omitempty" toml:"timeout_seconds"`
 }
 
 type RuntimeConfig struct {
